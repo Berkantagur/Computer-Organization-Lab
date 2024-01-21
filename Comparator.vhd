@@ -19,6 +19,6 @@ begin
 
     temp4 <= A(0) xnor B(0);
     temp5 <= A(1) xnor B(1);
-    AequalB <= temp4 or temp5;
+    AequalB <= temp4 and temp5;
 
 end comparator_structural;
